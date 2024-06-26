@@ -1,0 +1,25 @@
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(3* var(--bs-gutter-x));
+}
+.heading-back {
+    background-color: black;
+    
+}
+.slider-image {
+display: block;
+    height: 20%;
+    width: 20%;
+    border-radius: 30%;
+    float: right;
+    
+}
+.back-button {
+    text-decoration: none;
+    color: black;
+}
