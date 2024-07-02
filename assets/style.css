@@ -16,10 +16,58 @@ display: block;
     height: 20%;
     width: 20%;
     border-radius: 30%;
-    float: right;
+    float:inline-end;
     
 }
 .back-button {
     text-decoration: none;
     color: black;
 }
+.container-image {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;       
+}
+.container-image img {
+    height: 30vh;
+    width: auto;
+    border-radius: 20px;
+    opacity: 80%;
+}
+/* .my-5 {
+    height: 5vh;
+} */
+.bsm-list {
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+
+}
+.bsm-list .list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    border: 5px solid whitesmoke;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+    text-indent: 0%;
+}
+.image-edu {
+    display: flex;
+    flex-wrap: wrap;
+   margin-top: -5%;  
+}
+.image-edu img {
+    height: 30vh;
+    width: auto;
+}
+.feature-icon-small {
+    width: 3rem;
+    height: 3rem;
+}
+.bd-example table {
+    margin-left: -30%;
+}
+
+        
