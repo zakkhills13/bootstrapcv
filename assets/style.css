@@ -97,13 +97,9 @@ display: block;
     }
 }
 .img-container {
-    display: inline-block;
+    display: inline-flex;
 }
-@media (min-width: 350px) and (max-height: 755px) {
-    .img-container {
-        margin-left: -28%;
-    }
-}
+
 /* styling for Skills Page */
 .skills-img {
     
